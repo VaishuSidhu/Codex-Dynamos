@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #3498db, #2ecc71); /* Bluish-green gradient */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white; /* Text color */
+        }
+
+        .thanks-box {
+            background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background */
+            padding: 20px; /* Padding around the text */
+            border-radius: 10px; /* Rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <div class="thanks-box">
+        Thank you for taking the time to give us honest feedback on the latest survey.
+        <p>Current Analysis for event = {{sentiment}}</p>
+        <p>ranges between -1 to 1</p>
+        <p>closer to 1 means more positive</p>
+        <p>closer to 0 means neutral</p>
+        <p>closer to 1 means more neagtive</p>
+    </div>
+</div>
+   
+</body>
+</html>
